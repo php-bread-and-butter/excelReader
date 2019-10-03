@@ -1,0 +1,28 @@
+{
+	"name": "php-bread-and-butter/excel-reader",
+	"description": "PHP Excel Reader",
+	"type": "library",
+	"version": "1.0.0",
+	"time": "2019-10-03",
+	"homepage": "https://github.com/php-bread-and-butter/excelReader/",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "PHP is Bread and Butter",
+			"email": "ch.subhadeep@gmail.com",
+			"homepage": "https://github.com/php-bread-and-butter",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=7.2",
+		"ext-zip": "*"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^8.3"
+	},
+	"autoload": {
+		"classmap": ["./"],
+		"files": ["php-excel-reader/excel_reader2.php", "SpreadsheetReader.php"]
+	}
+}
