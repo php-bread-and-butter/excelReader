@@ -2,7 +2,7 @@
 	"name": "php-bread-and-butter/excel-reader",
 	"description": "PHP Excel Reader",
 	"type": "library",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"time": "2019-10-03",
 	"homepage": "https://github.com/php-bread-and-butter/excelReader/",
 	"license": "MIT",
@@ -15,7 +15,7 @@
 		}
 	],
 	"require": {
-		"php": ">=7.2",
+		"php": ">=7.1",
 		"ext-zip": "*"
 	},
 	"require-dev": {
